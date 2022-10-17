@@ -20,8 +20,10 @@
     font-size: 96px;
   }
   
-  h2 {
-    font-size: 48px;
+  .app-heading {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
   }
   
   h3 {
@@ -94,22 +96,21 @@
     justify-content: start;
   }
   .launch-link a {
+
     border-radius: 4px;
     padding: 15px 15px;
     text-decoration: none;
     text-transform: capitalize;
   }
-  .app-heading {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-  }
+ 
+  
   .salutation {
     margin-top: 100px;
   }
+
   @media (max-width: 576px) {
-    .name {
-      font-size: 60px;
+    body {
+        margin: 4px;
     }
     .homepage-pic {
         display: none;
@@ -117,6 +118,21 @@
     .project {
         text-align: center;
     }
+    h1 {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+    .app-heading {
+        display: inline;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .project-link {
 
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
   }
   
