@@ -107,9 +107,16 @@
   .salutation {
     margin-top: 100px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 576px) {
     .name {
       font-size: 60px;
     }
+    .homepage-pic {
+        display: none;
+    }
+    .project {
+        text-align: center;
+    }
+
   }
   
